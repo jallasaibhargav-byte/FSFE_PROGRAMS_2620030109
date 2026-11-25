@@ -1,0 +1,27 @@
+<!-- Write a css program to explain to explain variable-->
+ <html>
+    <head>
+        <title>CSS Variable</title>
+        <style>
+            .container{
+                --box-color: lightGREEN;
+                --box-size: 120;
+                --box-size1: 520;
+            }
+            .box{
+                width: var(--box-size);
+                height: var(--box-size1);
+                background-color: var(--box-color);
+                text-align: center;
+                line-height: 120px;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>CSS Variable</h3>
+        <div class="container">
+            <div class="box">FSFE</div>
+        </div>
+    </body>
+ </html>
